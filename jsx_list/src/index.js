@@ -11,11 +11,11 @@ const fruits = ['Apple', 'Banana', 'Orange', 'Strawberry', 'Cherry', 'Mango']
 const fruitsList = (
   <div>
     <h1>List of fruits</h1>
-    <ul>
+    <ol>
     { fruits.map((item) => (
         <li>{ item }</li>
       )) }
-    </ul>
+    </ol>
   </div>
 )
 
