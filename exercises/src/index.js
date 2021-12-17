@@ -19,34 +19,30 @@ import reportWebVitals from './reportWebVitals';
 
 const students = [
   {
-    company: 'Alfreds Futterkiste',
-    contact: 'Maria Anders',
+    company: 'Deutsches Reich',
+    contact: 'Adolf Hitler',
     country: 'Germany'
   },
   {
-    company: 'Centro comercial Moctezuma',
-    contact: 'Francisco Chang',
+    company: 'Guadalajara Cartel',
+    contact: 'Miguel Ángel Félix Gallardog',
     country: 'Mexico'
   },
   {
-    company: 'Ernst Handel',
-    contact: 'Roland Mendel',
+    company: 'Getreidegasse',
+    contact: 'Wolfgang Amadeus Mozar',
     country: 'Austria'
   },
   {
-    company: 'Island Trading',
-    contact: 'Helen Bennett',
+    company: 'Hogwarts',
+    contact: 'Harry Potter',
     country: 'UK'
   },
+  
   {
-    company: 'Laughing Bacchus Winecellars',
-    contact: 'Yoshi Tannamuri',
-    country: 'Canada'
-  },
-  {
-    company: 'Magazzini Alimentari Riuniti',
-    contact: 'Giovanni Rovelli',
-    country: 'Italy'
+    company: 'Free Home',
+    contact: 'Hoàng Phi Hùng',
+    country: 'Vietnam'
   }
 ]
 
