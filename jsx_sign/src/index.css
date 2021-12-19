@@ -12,8 +12,14 @@ code {
     monospace;
 }
 
+.all {
+  background: url(./background.jpg);
+  background-size: cover;
+    background-position: center;
+}
 .container {
   height: 100vh;
+  ;
 }
  
 .form-signin {
@@ -30,10 +36,12 @@ code {
 /* .form-signin .form-floating:focus-within {
   z-index: 2;
 } */
-.form-signin input:focus {
-  box-shadow: 0 0 5px black;
-}
+
 
 .form-signin input[type="email"] {
   margin-bottom: 20px;
+  
+}
+.form-signin input {
+  border-radius: 10px;
 }

@@ -7,32 +7,34 @@ import 'bootstrap/dist/css/bootstrap.css'
 
 
 const display = (
-  <div className="container d-flex align-items-center text-center">
-    <div className="form-signin">
-      <form>
-        <img className="mb-4" src="./imgs/logo.jpg" alt="" width="120" height="96" />
-        <h1 className="h3 mb-3 fw-normal">Please sign in</h1>
-        <div className="form-floating">
-          <input type="email" className="form-control email" id="floatingInput" placeholder="name@example.com" />
-          <label>Email address</label>
-        </div>
-        <div className="form-floating">
-          <input type="password" className="form-control password" id="floatingPassword" placeholder="Password" />
-          <label>Password</label>
-        </div>
-        <div className="checkbox mb-3">
-          <label>
-            <input type="checkbox" /> Remember me
-          </label>
-        </div>
-        <button className="w-100 btn btn-lg btn-dark" type="submit">Sign in</button>
-        <p className="mt-5 mb-3 text-muted">© 2021–2069</p>
-      </form>
+  <div className='all'>
+    <div className="container d-flex align-items-center text-center">
+      <div className="form-signin">
+        <form>
+          <img className="mb-4" src="./imgs/logo.jpg" alt="" width="120" height="120" />
+          <h1 className="h3 mb-3 fw-normal text-info">PLEASE SIGN IN</h1>
+          <div className="form-floating">
+            <input type="email" className="form-control email" id="floatingInput" required placeholder="name@example.com" />
+            <label>Email address</label>
+          </div>
+          <div className="form-floating">
+            <input type="password" className="form-control password" id="floatingPassword" required placeholder="Password" />
+            <label>Password</label>
+          </div>
+          <div className="checkbox mb-3">
+            <label>
+              <input type="checkbox" /> Remember me
+            </label>
+          </div>
+          <button className="w-100 btn btn-lg btn-info" type="submit">Sign in</button>
+          <p className="mt-5 mb-3 text-muted">© 2021–2069</p>
+        </form>
+      </div>
     </div>
   </div>
 )
 ReactDOM.render(
- display,
+  display,
   document.getElementById('root')
 );
 
